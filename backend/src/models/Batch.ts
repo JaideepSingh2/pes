@@ -5,6 +5,7 @@ export interface IBatch extends Document {
   course: Types.ObjectId;
   instructor: Types.ObjectId;
   students: Types.ObjectId[];
+  assisstant: Types.ObjectId[]; 
 }
 
 
